@@ -1,0 +1,39 @@
+
+
+<html>
+    <head>
+        <title>Chatroom</title>
+        <meta charset="utf-8">
+        
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+        <link rel="stylesheet" href="main.css">
+
+        
+        <!-- JS -->
+        <script src="//code.jquery.com/jquery-2.1.0.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <form class="pure-form">
+            <input type="text">
+        </form>
+
+        <div id="messages"></div>
+        
+        <div>
+            <h2>User List:</h2>
+            <div id="user-list"></div>
+        </div>
+        
+        <!--<div id="username-overlay">-->
+        <!--    <div id="username-content">-->
+        <!--        <h2>Pick a nickname</h2>-->
+        <!--        <input id="username-input">-->
+        <!--    </div>-->
+        <!--</div>-->
+    </body>
+</html>
