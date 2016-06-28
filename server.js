@@ -73,7 +73,7 @@ io.on('connection', function (socket) {
     
     socket.on('message', function(message) {
         
-        var user = userStorage.findUser(socket);
+        var user = userStorage.findUser(socket); // use socket.id instead?
     
     //   console.log('Recieved message from: ', user.username);
     //   console.log('It Says: ', message);
